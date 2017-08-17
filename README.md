@@ -1,2 +1,2 @@
-# tabs_menu_adaptiv
-вкладки-меню-адаптив
+# responsive-jquery-tab
+I have created my own custum jquery plugin for responsive tab
