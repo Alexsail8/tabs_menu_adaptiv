@@ -30,6 +30,8 @@
                 <div id="tab-2" class="tab-pane">
                     <h3>Tab 2</h3>
                     <p>Quisque sodales sodales lacus pharetra bibendum. Etiam commodo non velit ac rhoncus. Mauris euismod purus sem, ac adipiscing quam laoreet et. Praesent vulputate ornare sem vel scelerisque. Ut dictum augue non erat lacinia, sed lobortis elit gravida. Proin ante massa, ornare accumsan ultricies et, posuere sit amet magna. Praesent dignissim, enim sed malesuada luctus, arcu sapien sodales sapien, ut placerat eros nunc vel est. Donec tristique mi turpis, et sodales nibh gravida eu. Etiam odio risus, porttitor non lacus id, rhoncus tempus tortor. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.</p>
+                      <button class="buttonBuyStyleLvl5">Где купить</button>        
+
                 </div>
                 <div id="tab-3" class="tab-pane">
                     <h3>Tab 3</h3>
@@ -51,5 +53,10 @@
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/tab.js" type="text/javascript"></script>
+    <script>
+        $('.buttonBuyStyleLvl5').click(function(){
+  $('.tabs a').eq(4).click();
+});
+    </script>
 </body>
 </html>
